@@ -1,8 +1,8 @@
 
 .PHONY: clean
 
-embeddedinn: embeddedinn.c
+embeddedinn: hpsc_hello.c
     $(CC) -o '$@' '$<'
 
 clean:
-    rm embeddedinn
+    rm hpsc_hello
